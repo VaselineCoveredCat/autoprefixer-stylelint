@@ -1,0 +1,27 @@
+{
+  "name": "autoprefixer-stylelint",
+  "version": "1.0.0",
+  "description": "3 June 2022",
+  "main": "index.js",
+  "scripts": {
+    "autoprefix": "npx postcss *.css --use autoprefixer --no-map -d build/",
+    "stylelint": "npx stylelint *.css --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "stylelint": "^14.8.5",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-order": "^5.0.0"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 10 versions",
+    "not dead"
+  ]
+}
